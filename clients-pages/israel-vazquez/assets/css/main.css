@@ -1883,11 +1883,21 @@ button,
     width: 97.5%; }
   .panel.small .span-10, .panel.medium .span-10, .panel.large .span-10 {
     width: 100%; }
-  .panel .qr-container {
+  .panel .img-contact-container {
     display: flex;
     justify-content: center; }
-  .panel .qr-img {
-    width: 150px; }
+    .panel .img-contact-container .qr-img {
+      width: 150px; }
+    .panel .img-contact-container .wp-img {
+      margin-left: 2.5rem;
+      margin-top: 40px;
+      width: 75px;
+      height: 75px; }
+    .panel .img-contact-container .call-img {
+      margin-right: 2.5rem;
+      margin-top: 40px;
+      width: 75px;
+      height: 75px; }
   .panel.color0 {
     background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
     background-size: 128px 128px, auto; }

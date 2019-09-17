@@ -174,14 +174,29 @@
 			@include spans(_size(span-variable));
 		}
 
-		.qr-container {
-			display: flex;
-			justify-content: center;
-		}
+    .img-contact-container {
+      display: flex;
+      justify-content: center;
+           
+      .qr-img {
+        width: 150px;
+      }
 
-		.qr-img {
-			width: 150px;
-		}
+      .wp-img {
+        margin-left: 2.5rem;
+        margin-top: 40px;
+        width: 75px;
+        height: 75px;
+      }
+
+      .call-img {
+        margin-right: 2.5rem;
+        margin-top: 40px;
+        width: 75px;
+        height: 75px;
+      }
+    
+    }
 
 		@include panel-colors;
 	}
