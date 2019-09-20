@@ -1,0 +1,10 @@
+.panel .custom-gradient {
+  background: rgba(0,149,255,1);
+  background: -moz-linear-gradient(45deg, rgba(0,149,255,1) 0%, rgba(3,198,232,1) 51%, rgba(112,195,136,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0,149,255,1)), color-stop(51%, rgba(3,198,232,1)), color-stop(100%, rgba(112,195,136,1)));
+  background: -webkit-linear-gradient(45deg, rgba(0,149,255,1) 0%, rgba(3,198,232,1) 51%, rgba(112,195,136,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(0,149,255,1) 0%, rgba(3,198,232,1) 51%, rgba(112,195,136,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(0,149,255,1) 0%, rgba(3,198,232,1) 51%, rgba(112,195,136,1) 100%);
+  background: linear-gradient(45deg, rgba(0,149,255,1) 0%, rgba(3,198,232,1) 51%, rgba(112,195,136,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095ff', endColorstr='#70c388', GradientType=1 );
+}
