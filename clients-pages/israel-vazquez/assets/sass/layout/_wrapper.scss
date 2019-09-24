@@ -47,6 +47,11 @@
 			margin-bottom: 0;
 
 			a {
+        display: flex;
+        align-items: center;
+        p {
+          margin: 0 1rem;
+        }
 				&:hover {
 					color: inherit;
 				}
